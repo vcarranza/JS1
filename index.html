@@ -10,6 +10,47 @@
 <body>
   <p class="hello">Hello</p>
   <footer></footer>
-  <script src="js/script.js"></script>
+
+  <script>
+    //console.log(document);
+    //console.log(document.body);
+    //document.write(<h1>'hello world'</h1>);
+    //var madup ='value';
+    //const madup ='value';
+    //let mapup ='value';
+    const me =(
+      name:"Victor",
+      age: 27,
+    );
+    if(me.age) {
+
+    };
+    <img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiwhuunpfbfAhUNFzQIHaV7APAQjRx6BAgBEAU&url=https%3A%2F%2Fwww.express.co.uk%2Flife-style%2Fcars%2F902345%2FFisker-solid-state-electric-car-battery-range-charging-times&psig=AOvVaw1-Eh8AlTEPuUMSIk_TWhgB&ust=1547865180041586" alt=""/>
+    <img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiwhuunpfbfAhUNFzQIHaV7APAQjRx6BAgBEAU&url=https%3A%2F%2Fwww.express.co.uk%2Flife-style%2Fcars%2F902345%2FFisker-solid-state-electric-car-battery-range-charging-times&psig=AOvVaw1-Eh8AlTEPuUMSIk_TWhgB&ust=1547865180041586" alt=""/>
+
+      document.write(me.name + me.age);
+      document.write('<h1>hello</h1>');
+  </script>
+  <script>
+    >const img = document.getElementsbytagname('img');
+    const img =imgs[0];
+    console.log('img',imgs[0]);
+    const px = 'px';
+    let move = 0;
+
+    img.style['background-color'] = 'red';
+    img.style.padding ='20px';
+    img.style.position ='absolute';
+    img.style.right = '0' + px;
+    const action= setInterval(  () => {
+      move += 20;
+      img.style.right =move +px;
+      if(move> 200){
+        clearinterval(action);
+      }
+    } 10);
+
+  </script>
+
 </body>
 </html>
